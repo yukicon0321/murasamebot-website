@@ -1,8 +1,7 @@
 <link rel="stylesheet" href="style.css">
 ---
-title: 千恋 * 万花 機器人使用說明
-tags: [語錄, "Ciallo～(∠・ω< )⌒☆\_", Discord機器人, 柚子社]
-
+layout: default
+title: murasamebot-website
 ---
 
 # 千恋 * 万花 機器人使用說明
