@@ -15,7 +15,16 @@ title: murasamebot-website
 >- **[機器人政策（含服務政策、隱私權政策、使用許可、語錄申請政策、柚子社版權指南）](https://hackmd.io/@yukicon0321/yuzusofttos)**
 
 
+# 千恋 * 万花 機器人使用說明
+<image-card alt="74293644_p0" src="https://hackmd.io/_uploads/rygPdAfNgg.jpg" ></image-card>
 
+<div class="admonition tip">
+<p class="admonition-title">機器人相關網頁</p>
+- **[機器人Discord支援群](https://discord.gg/ZwPadtm5vr)**
+- **[機器人Threads帳](https://www.threads.com/@ciallo0d0721)**
+- **[機器人更新日誌](https://hackmd.io/@yukicon0321/yuzusoft_version)**
+- **[機器人政策（含服務政策、隱私權政策、使用許可、語錄申請政策、柚子社版權指南）](https://hackmd.io/@yukicon0321/yuzusofttos)**
+</div>
 
 
 # 如何邀請機器人加入至伺服器？
