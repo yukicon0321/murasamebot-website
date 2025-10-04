@@ -3,3 +3,26 @@ body {
   margin: 0;
   padding: 20px;
 }
+.admonition {
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 5px solid;
+  border-radius: 4px;
+}
+.admonition.tip { border-color: #007bff; background: #e7f3ff; color: #004085; } /* 藍色 Tip */
+.admonition.note { border-color: #28a745; background: #d4edda; color: #155724; } /* 綠色 Note */
+.admonition.warning { border-color: #ffc107; background: #fff3cd; color: #856404; } /* 黃色 Warning */
+.admonition.important { border-color: #dc3545; background: #f8d7da; color: #721c24; } /* 紅色 Important */
+.admonition.caution { border-color: #fd7e14; background: #fff3cd; color: #856404; } /* 橙色 Caution */
+.admonition-title { font-weight: bold; margin-bottom: 5px; }
+
+.alert {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.alert.danger { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; } /* 紅色 Danger */
+.alert.success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; } /* 綠色 Success */
+
+details { margin: 10px 0; border: 1px solid #ddd; padding: 10px; border-radius: 4px; }
+summary { font-weight: bold; cursor: pointer; }
