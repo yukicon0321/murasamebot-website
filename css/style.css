@@ -1,6 +1,113 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  background-color: #F0F0F0;
-  margin: 0;
-  padding: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5865F2; /* Discord 藍 */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    background-color: #404eed;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #5865F2;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #4752c4;
+}
+
+section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3, h4 {
+    color: #5865F2;
+}
+
+.subnav, .subsubnav {
+    margin-bottom: 1rem;
+}
+
+.subnav a, .subsubnav a {
+    color: #5865F2;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.subnav a:hover, .subsubnav a:hover {
+    text-decoration: underline;
+}
+
+.note, .spoiler {
+    background-color: #eee;
+    padding: 1rem;
+    border-left: 5px solid #5865F2;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #5865F2;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+    section {
+        margin: 1rem;
+        padding: 1rem;
+    }
 }
 
